@@ -169,7 +169,7 @@
         android:onClick="onButtonClick"
         android:text="@string/two"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/button0"
+        app:layout_constraintBottom_toTopOf="@+id/"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         android:backgroundTint="#48494B"/>
 
@@ -245,6 +245,7 @@
         android:layout_marginBottom="28dp"
         android:onClick="onButtonClick"
         android:text="@string/zero"
+        android:gravity="start"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/dot"
